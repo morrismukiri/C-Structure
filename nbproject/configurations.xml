@@ -17,6 +17,7 @@
       <itemPath>main.c</itemPath>
       <itemPath>marks.c</itemPath>
       <itemPath>numberCount.c</itemPath>
+      <itemPath>products.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -50,6 +51,8 @@
       </item>
       <item path="numberCount.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="products.c" ex="false" tool="0" flavor2="0">
+      </item>
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
@@ -80,6 +83,8 @@
       <item path="marks.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="numberCount.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="products.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>

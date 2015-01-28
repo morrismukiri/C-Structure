@@ -39,7 +39,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/circle.o \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/marks.o \
-	${OBJECTDIR}/numberCount.o
+	${OBJECTDIR}/numberCount.o \
+	${OBJECTDIR}/products.o
 
 
 # C Compiler Flags
@@ -90,6 +91,11 @@ ${OBJECTDIR}/numberCount.o: numberCount.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/numberCount.o numberCount.c
+
+${OBJECTDIR}/products.o: products.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/products.o products.c
 
 # Subprojects
 .build-subprojects:
