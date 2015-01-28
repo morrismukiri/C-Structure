@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/area.o \
+	${OBJECTDIR}/circle.o \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/marks.o \
 	${OBJECTDIR}/numberCount.o
@@ -69,6 +70,11 @@ ${OBJECTDIR}/area.o: area.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/area.o area.c
+
+${OBJECTDIR}/circle.o: circle.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/circle.o circle.c
 
 ${OBJECTDIR}/main.o: main.c 
 	${MKDIR} -p ${OBJECTDIR}
