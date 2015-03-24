@@ -13,10 +13,13 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>area.c</itemPath>
+      <itemPath>assignment.c</itemPath>
       <itemPath>circle.c</itemPath>
+      <itemPath>db.c</itemPath>
       <itemPath>main.c</itemPath>
       <itemPath>marks.c</itemPath>
       <itemPath>numberCount.c</itemPath>
+      <itemPath>play.c</itemPath>
       <itemPath>products.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -43,13 +46,19 @@
       </compileType>
       <item path="area.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="assignment.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="circle.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="db.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="marks.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="numberCount.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="play.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="products.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -76,13 +85,19 @@
       </compileType>
       <item path="area.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="assignment.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="circle.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="db.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="marks.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="numberCount.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="play.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="products.c" ex="false" tool="0" flavor2="0">
       </item>
