@@ -1,6 +1,6 @@
 # README #
 
-This is a Repository to hold all classwork and assignment for the 
+This is a Repository to hold all classwork and assignment for the introduction to structured programming
 
 ### What is this repository for? ###
 
@@ -22,4 +22,4 @@ This is a Repository to hold all classwork and assignment for the
 
 ### Who do I talk to? ###
 
-* Morris Mukiri
+* [Morris Mukiri](https://github.com/morrismukiri "Github page")
